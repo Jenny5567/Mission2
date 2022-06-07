@@ -1,0 +1,112 @@
+
+
+
+
+
+.container2{
+    max-width:964px ;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+
+
+//1.header
+.wrap{
+    margin: 0 auto;
+    height: 100vh;
+    background: url(../img/page_2/headerimg.svg) no-repeat;
+    background-position: right top;
+    background-color: #F7F9FD;
+    border-radius: 0px 0px 0px 300px;
+}
+
+@media (max-width: 375px){
+    .wrap {
+        height: 495px;
+        background: url(../img/page_2-mobil/mobil-headerimg.svg) no-repeat;
+        background-color: #F7F9FD;
+        border-radius: 0px 0px 0px 150px;
+    }
+}
+
+.circle3{
+    background: url(../img/page_2/Ellipse3.svg) no-repeat;
+    height: 361px;
+    width: 94px;
+    top: 200px;
+    background-position: right;
+    z-index: -1;
+
+}
+
+@media (max-width: 768px){
+    .circle3{
+        background-size: 200px;
+        top: 800px;
+    }
+}
+
+
+
+
+
+
+//2.彈性選擇，提供您選擇最適合的方案
+
+.bg-hover-primary:hover {
+    color: #fff;
+    background: #56C4C5;
+}
+
+
+
+
+.content > li{
+    padding:10px 24px 32px 24px;
+
+}
+
+
+@media (max-width: 992px){
+    .content  li{
+    width: 100%;  
+    }
+}
+
+
+@media (max-width: 768px){
+    .price p{
+        font-size: 28px;
+    
+    }
+}
+
+
+
+
+
+
+.content h4{
+    padding-bottom: 16px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+
+
+.question{
+    width: 100%;
+    text-align: left;
+}
+
+@media (max-width: 375px){
+    .question a{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
